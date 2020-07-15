@@ -18,3 +18,12 @@ var cardInfo = true;
 //         }
 //     }
 // }
+
+
+// OTHER Method
+
+if (isLoggedIn && isEmailVerified && cardInfo) {
+    console.log("you can purchase");
+}else{
+    console.log("you are not allow to purchase");
+}
