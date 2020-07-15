@@ -1,5 +1,5 @@
 # javaScript2020
 
-#install node
+#install node.js
 
 #run using node
