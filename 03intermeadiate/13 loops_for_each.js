@@ -1,4 +1,10 @@
-const myState = ["kerala","tamilnadu","delhi","karnataka","maharashtra",];
+const myState = ["kerala",
+"tamilnadu",
+"delhi",
+"karnataka",
+"1945",
+"maharashtra",
+];
 
 // var i = 0;
 // for (;;) {
@@ -8,3 +14,20 @@ const myState = ["kerala","tamilnadu","delhi","karnataka","maharashtra",];
 // }
 
 myState.forEach((s) => (console.log(s)));
+myState.forEach((s) => console.log(s));
+/*
+OUTPUT
+
+kerala
+tamilnadu
+delhi
+karnataka
+1945
+maharashtra
+kerala
+tamilnadu
+delhi
+karnataka
+1945
+maharashtra
+*/
