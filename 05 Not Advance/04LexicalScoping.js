@@ -1,10 +1,10 @@
 function init(){
-    var firstName = "hanshir"
+    var firstName = "hanshir";
     function sayFirstName(){
         console.log(firstName);
     }
 
-    sayLastName();
+    return sayFirstName;
 }
 
-init();
+var value = init();
