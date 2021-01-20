@@ -30,8 +30,9 @@ let allListItems = document.querySelectorAll("li");
 let powederArray = [];
 
 console.log(allListItems);
-allListItems.forEach(function (listItems) {
+allListItems.forEach(function (listItems, index) {
   console.log(listItems);
+  console.log(index);
   let listItemsText = listItems.innerText;
   console.log(listItemsText);
   powederArray.push(listItemsText);
